@@ -264,6 +264,7 @@ def makeStaticSVG(pathin,filein,pathout,fileout,seq=None,nele=None):
                 subroot.attrib['height'] = str(height)
                 pimage.append(subroot)
         except:
+            print('error in image')
             pass
 
     tree.write(pathout+fileout)
