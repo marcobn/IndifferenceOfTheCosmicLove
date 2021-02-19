@@ -1,8 +1,8 @@
 # ## L’Indifferenza dell’Amore Cosmico
 # ### _(The Indifference of the Cosmic Love)_
 #
-# Version I: for flauto d’amore (or flute(s))<br>
-# cosmic rays and electronics<br>
+# Version I: for flauto d’amore (or flute(s))
+# cosmic rays and electronics
 # (arbitrary duration)
 #
 #
@@ -314,6 +314,11 @@ for sec in input_sec:
     else:
         totgest = Sections[sec]['totgest']
     
+    try:
+        os.mkdir('./FIGURES/COMPOUNDED/')
+    except:
+        pass
+    
     files = glob.glob('./FIGURES/COMPOUNDED/*')
     for f in files:
         os.remove(f)
@@ -380,6 +385,11 @@ for sec in input_sec:
         tmp.append([str(idx[n-1]),str(idx[n]),1])
     eedges = pd.DataFrame(tmp,columns=['Source','Target','Weight'])
     
+    try:
+        os.mkdir('./SECTIONS/')
+    except:
+        pass
+      
     # Graph score
     G = Digraph(engine=engine,format='svg')
     
