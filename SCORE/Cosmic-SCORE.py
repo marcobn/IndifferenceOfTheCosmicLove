@@ -7,8 +7,7 @@
 # (arbitrary duration)
 #
 #
-# to Ginevra Petrucci for the Flauto d’Amore Project and
-# Gleb Kanasevich
+# to Ginevra Petrucci for the Flauto d’Amore Project
 #
 # ©2021, Marco Buongiorno Nardelli
 
