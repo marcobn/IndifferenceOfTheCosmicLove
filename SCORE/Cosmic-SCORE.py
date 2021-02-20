@@ -2,11 +2,13 @@
 # ### _(The Indifference of the Cosmic Love)_
 #
 # Version I: for flauto d’amore (or flute(s))
+# Version II: for bass clarinet (or clarinet(s))
 # cosmic rays and electronics
 # (arbitrary duration)
 #
 #
-# to Ginevra Petrucci for the Flauto d’Amore Project
+# to Ginevra Petrucci for the Flauto d’Amore Project and
+# Gleb Kanasevich
 #
 # ©2021, Marco Buongiorno Nardelli
 
